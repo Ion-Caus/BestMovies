@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "BestMovies.Func": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7094",
+      "launchBrowser": false
+    }
+  }
+}
