@@ -32,6 +32,6 @@ public static class MovieFunctions
         var body = await new StreamReader(req.Body).ReadToEndAsync();
 
 
-        return new BadRequestObjectResult($"wrong id {id} and body {body}");
+        return new BadRequestObjectResult($"wrong id {id} and body \n {body}");
     }
 }
